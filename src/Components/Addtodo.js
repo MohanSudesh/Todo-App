@@ -38,14 +38,7 @@ class Addtodo extends Component {
       [e.target.id]: e.target.value
     });
   };
-  //   handleChange2 = e => {
-  //     e.persist();
-  //     this.setState(
-  //       {
-  //         priority: e.target.value
-  //       }
-  //     );
-  //   };
+
   render() {
     const { name, priority, completed } = this.state;
     return (

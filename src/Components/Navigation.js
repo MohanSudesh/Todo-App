@@ -9,11 +9,11 @@ export class Navigation extends Component {
       <div>
         <nav>
           <BrowserRouter>
-            <Link to="/">Tasks</Link>
+            <Link to="/todos">Tasks</Link>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <Link to="/add">Add Task</Link>
             <Route path="/add" exact={true} component={Addtodo} />
-            <Route path="/" exact={true} component={Todolist} />
+            <Route path="/todos" exact={true} component={Todolist} />
           </BrowserRouter>
         </nav>
       </div>
